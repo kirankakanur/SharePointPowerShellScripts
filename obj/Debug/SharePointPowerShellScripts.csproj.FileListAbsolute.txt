@@ -1,0 +1,5 @@
+c:\users\kkakanur\documents\visual studio 2017\Projects\SharePointPowerShellScripts\SharePointPowerShellScripts\bin\Debug\SharePointPowerShellScripts.exe.config
+c:\users\kkakanur\documents\visual studio 2017\Projects\SharePointPowerShellScripts\SharePointPowerShellScripts\bin\Debug\SharePointPowerShellScripts.exe
+c:\users\kkakanur\documents\visual studio 2017\Projects\SharePointPowerShellScripts\SharePointPowerShellScripts\bin\Debug\SharePointPowerShellScripts.pdb
+c:\users\kkakanur\documents\visual studio 2017\Projects\SharePointPowerShellScripts\SharePointPowerShellScripts\obj\Debug\SharePointPowerShellScripts.exe
+c:\users\kkakanur\documents\visual studio 2017\Projects\SharePointPowerShellScripts\SharePointPowerShellScripts\obj\Debug\SharePointPowerShellScripts.pdb
