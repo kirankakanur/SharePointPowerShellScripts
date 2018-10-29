@@ -1,4 +1,10 @@
-﻿# Connect to SharePoint Online
+﻿# This script is based on this blog https://piasys.com/blog/using-sharepoint-rest-api-from-powershell/
+# The changes that I have made are as follows:
+# -Use Get-PnPWeb as opposed to Get-SPOWeb
+# -Use SharePoint Search REST API
+# -Export results to CSV file
+ 
+ # Connect to SharePoint Online
  $targetSite = "https://kirank.sharepoint.com/"
  $outputFile = "C:\temp\SPSearchResults2.csv" 
  $targetSiteUri = [System.Uri]$targetSite
@@ -6,7 +12,7 @@
 Connect-SPOnline $targetSite
 
 # Retrieve the client credentials and the related Authentication Cookies
- $context = (Get-PnPWeb).Context #(Get-SPOWeb).Context
+ $context = (Get-PnPWeb).Context 
  $credentials = $context.Credentials
  $authenticationCookies = $credentials.GetAuthenticationCookie($targetSiteUri, $true)
 

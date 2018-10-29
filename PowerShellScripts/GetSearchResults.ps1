@@ -1,5 +1,5 @@
 ﻿$targetSite = "https://kiran.sharepoint.com/"   # your SPO site URL here
-$outputFile = "C:\temp\SPSearchResults2.csv"    # path to the CSV file that will store the SharePoint search API results
+$outputFile = "C:\temp\SPSearchResults1.csv"    # path to the CSV file that will store the SharePoint search API results
 $userName = "kirank@microsoft.com"              # your SPO user name here
 $password = "pass@word1"                        # your password here
 
